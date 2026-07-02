@@ -18,10 +18,10 @@ public class Livre {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;  
 
     private String titre;
     private String auteur;
-    private int anneePub;
+    private Integer anneePub;  
 
 }
